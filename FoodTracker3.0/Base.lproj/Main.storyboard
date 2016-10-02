@@ -33,6 +33,9 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBr-9P-KHl">
                                         <state key="normal" title="Set Default Label Text"/>
+                                        <connections>
+                                            <action selector="setDefaltLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z2H-OM-hP7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
