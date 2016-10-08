@@ -29,8 +29,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     // MARK: UITextFieldDelegate
-    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // Hide the keyboar
+        textField.resignFirstResponder()
+        
+        return true
+    }
 
+    
     // MARK: Actions
     @IBAction func setDefaltLabelText(_ sender: UIButton) {
         mealNameLabel.text = "Default Text"
